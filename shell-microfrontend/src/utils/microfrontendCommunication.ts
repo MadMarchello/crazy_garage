@@ -20,6 +20,7 @@ class MicrofrontendCommunication {
   private setupMessageListener(): void {
     window.addEventListener('message', (event: MessageEvent<MicrofrontendMessage>) => {
       // Проверяем источник для безопасности
+      //TODO: Добавить переменную для URL микрофронтенда и настроить CI/CD
       if (event.origin !== 'http://localhost:3001') {
         return
       }

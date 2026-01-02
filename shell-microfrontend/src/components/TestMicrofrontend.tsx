@@ -21,6 +21,7 @@ const TestMicrofrontend: React.FC = (): React.JSX.Element => {
 
       // Создаем iframe для загрузки микрофронтенда
       const iframe = document.createElement('iframe')
+      //TODO: Добавить переменную для URL микрофронтенда и настроить CI/CD
       iframe.src = 'http://localhost:3001'
       iframe.style.width = '100%'
       iframe.style.height = '600px'
