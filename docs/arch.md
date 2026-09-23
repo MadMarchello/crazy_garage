@@ -39,3 +39,6 @@
 
 ## Системы логирования
 1. Sentry
+
+
+https://github.com/orgs/hse-MlSecOps/invitation?via_email=1
